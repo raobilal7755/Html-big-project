@@ -1,0 +1,219 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	 background-color: gray;
+	 font-family: Arial ,Helvetica ,sans-serif;
+	 margin: 0px;
+	 padding: 0px;
+	 user-select: none;
+}
+   /*this portion are header only*/
+#top-head{
+	height: 60px;
+	width: 100%;
+	box-sizing: border-box;
+	background-color:#363734;
+	border-bottom: 4px solid #FFBB00;
+}
+#tophead-child{
+	height: 50px;
+	width: 150px;
+	box-sizing: border-box;
+	padding-top: 15px;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	background-color: ;
+	float: right;
+}
+
+/*this portion will start navgation bar*/
+nav{
+	height: 50px;
+	width: 100%;
+	background-color:
+
+}
+#dropdown{
+margin-left: 130px;
+}
+#dropdown ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#dropdown ul li{
+	background-color: #4B65A2;
+	height: 47px;
+	width: 180px;
+	margin: 2px;
+	float: left;
+	border-right:1px solid black; 
+	font-weight: bold;
+	text-align: center;
+	border-radius: 15px;
+	line-height: 47px;
+	position: relative;
+	opacity: 0.9;
+
+}
+#dropdown ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#dropdown ul li a:hover{
+	background-color: #B811FA;
+	border-radius: 15px;
+}
+#dropdown ul li > ul{
+	position: absolute;
+	display: none;
+
+}
+#dropdown ul li:hover > ul{
+	display: block;
+}
+#dropdown ul ul ul{
+	margin-left: 180px;
+	top: 0px;
+}
+/*this portion will be start section*/
+#main_section{
+	text-align: center;
+}
+iframe{
+	width: 80%;
+	height: 400px;
+	background-color: white;
+}
+.border_top{
+	border-top: 4px solid #FFBB00;
+}
+.border_bottom{
+	border-top: 4px solid #FFBB00;
+}
+#main_section p{
+	padding: 12px;
+	font-size: 20px;
+	color: purple;
+	font-weight: bold;
+}
+
+/*this portion will be start footer*/
+footer{
+	width: 100%;
+	height: 400px;
+	background-color:#363734; 
+}
+
+.f1 , .f2{
+	width: 28%;
+	height: 400px;
+	border-right: 1px solid #ABAAAB;
+	float: left;
+	box-sizing: border-box;
+	padding: 50px 70px;
+}
+.f1 ul ,.f2 ul{
+	list-style-type: none;
+}
+
+.f1 ul li ,.f2 ul li{
+	
+	margin-bottom: 5px;
+}
+.f1 ul li a ,.f2 ul li a{
+	color: white;
+	font-size: 22px;
+	font-weight: ;
+	font-family: arial;
+	text-decoration: none;
+}
+#foot_3rd{
+	width: 44%;
+	height: 400px;
+	float: left;
+	background-color: #363734;
+}
+#img_footer{
+	height: 80px;
+	width: 320px;
+	margin-top: 50px;
+	margin-left: 70px;
+}
+#p{
+	height: 30px;
+	width: 300px;
+	margin-top: 80px;
+	margin-left: 100px;
+	background-color: ;
+}
+#p p{
+	color: white;
+	font-family: Copperplate Gothic;
+}
+
+#img_gif{
+	 margin-left: 95px;
+	 margin-top: 10px;
+}
+#img_gif ul{
+	list-style-type: none;
+
+}
+#img_gif ul li{
+	float: left;
+	margin:5px;
+}
+#img_gif ul li a img{
+	height: 25px;
+	width: 25px;
+	border-radius: 50px;
+	transition: all 0.5s ease;
+}
+#img_gif ul li a img:hover{
+	transform: rotate(360deg);
+}
+ /*this portion is footer bar*/
+
+#footer_bar{
+	height: 40px;
+	width: 100%;
+	background-color: #202328;
+	box-sizing: border-box;
+	padding: 10px;
+	float: left;
+}
+
+#footer_bar #bar1{
+	float: left;
+	margin-left: 60px;
+}
+#footer_bar #bar1 p{
+	color: #847C7C;
+	font-size: 13px
+}
+#footer_bar #bar1 p a{
+	color: #847C7C;
+	text-decoration: none;
+}
+
+
+
+
+#footer_bar #bar2{
+	float: left;
+	margin-left: 550px;
+
+}
+#footer_bar #bar2 p{
+	color: #847C7C;
+	font-size: 13px
+}
+#footer_bar #bar2 p a{
+	color:  #847C7C;
+	text-decoration: none;
+}

@@ -1,0 +1,43 @@
+/*this portion will be start for home page */
+body{
+	background-color: #363734;
+}
+#pic{
+	text-align: center;
+}
+#pic img{
+	height: 150px;
+	width: 400px;
+}
+#text p{
+	font-size: 20px;
+	font-family: arial;
+	text-align: justify;
+	color: white;
+}
+/*ending this page*/
+
+      /* @@@@@ this portion will be start courses@@@@@*/
+
+ table{
+ 	border-collapse: collapse;
+
+ }   
+ th{
+ 	width: 200px;
+ 	background-color: green;
+ 	color: white;
+ 	height: 45px;
+ 	font-family: arial;
+ }
+ td{
+ 	text-align: center;
+ 	height: 40px;
+ 	background-color: white;
+ }
+ table > tr:nth-child(odd){
+ 	background-color: gray;
+ }
+ tr:hover{
+ 	background-color: orange;
+ }

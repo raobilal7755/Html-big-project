@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	 body{
+ 	background-color: #363734;
+ }
+	form{
+		max-width: 320px;
+		margin: 50px auto;
+	}
+	#formation{
+            color: white;
+            font-weight: 500;
+            font-size: 18px;
+            font-family: helvetica, sans-serif, arial;
+            border-radius: 10px;
+            width: 100%;
+            margin-bottom: 15px;
+            background: transparent;
+            padding: 13px;
+            border:2px solid green;
+            box-sizing: border-box;
+            resize: none;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+           transition: all 1s ease;
+	}
+	#formation:focus{
+		border: 2px solid purple;
+		 border-radius: 10px;
+	}
+	#btn{
+		padding: 15px 126px;
+		border-radius: 10px;
+		font-size: 22px;
+		background: #57A700;
+		color: white;
+		font-weight: bold;
+		font-family: helvetica arial;
+		border: 1px solid white;
+		transition: all 1s ease;
+
+	}
+	#btn:hover{
+        background-color: #DE5246;
+	}
+	</style>
+</head>
+<body>
+	<form>
+		<input type="text" name="name" id="formation" placeholder="Name" required="" autofocus="">
+		<input type="email" name="email" id="formation" placeholder="Email" required="" autofocus="">
+		<textarea placeholder="Your Message" id="formation" required="" autofocus=""></textarea>
+		<input type="submit" value="Submit" id="btn">
+	</form>
+</body>
+</html>
